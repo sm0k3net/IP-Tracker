@@ -4,9 +4,9 @@ IP-Tracker
 Small IP Tracking system for website on PHP and MySQL
 
 
- Components:
- 1) ip_track.php - main part, must be included on page you want to monitor
- 2) visitor_tracking.sql - SQL script to create DB
+ Components:<br>
+ 1) ip_track.php - main part, must be included on page you want to monitor<br>
+ 2) visitor_tracking.sql - SQL script to create DB<br>
  3) iptrack.php - simple example of admin panel with search field, works with visitor_tracking table if connect to DB
  
  
