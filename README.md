@@ -9,8 +9,7 @@ Small IP Tracking system for website on PHP and MySQL
  2. include "ip_track.php" in your page
  3. Import SQL script
  4. Configure "ip_track.php" to connect with your db
- 5. Go to page and test...
-
+ 5. Go to page and test
 
 
  == Adds ==
