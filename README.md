@@ -18,7 +18,7 @@ Small IP Tracking system for website on PHP and MySQL
  
  * This field will show IP and link on WHOIS:  
 
-<p>User: <noindex><a rel='nofollow' href=http://www.ip-adress.com/whois/<?php echo "$ipaddress";?> target=_blank> <?php echo "$ipaddress";?></a></noindex></p>
+ User: href=http://www.ip-adress.com/whois/<?php echo "$ipaddress";?> target=_blank> <?php echo "$ipaddress";?>
 
  
  * This field will show time when user came on your page:
@@ -28,14 +28,16 @@ Small IP Tracking system for website on PHP and MySQL
 
  * This field will show page or request which user made:
 
- <noindex><a href='http://yoursite.com<?php echo "$requ";?>' target=_blank rel='nofollow'><?php echo "$requ";?></a></noindex>
+ href='http://yoursite.com<?php echo "$requ";?>' target=_blank rel='nofollow'><?php echo "$requ";?>
 
 
  * This field will show user referer:
  
- <noindex><a rel='nofollow' href='<?php echo "$reff";?>' target=_blank><?php echo "$reff";?></a></noindex>
+ href='<?php echo "$reff";?>' target=_blank><?php echo "$reff";?>
  
 
  * This field will show user-agent of user:
 
  <?php echo "$ag";?>
+
+ Hint! Just don't forget to add <noindex> and rel=nofollow so links won't be indexed with search engines
