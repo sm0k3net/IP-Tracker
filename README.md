@@ -47,4 +47,4 @@ Small IP Tracking system for website on PHP and MySQL
 
  <?php echo "$ag";?>
 
- Hint! Just don't forget to add <noindex> and rel=nofollow so links won't be indexed with search engines
+ Hint! Just don't forget to add noindex and rel=nofollow so links won't be indexed with search engines
